@@ -1,0 +1,87 @@
+﻿body {
+}
+
+.icon{
+    width:10px;
+    height:10px;
+}
+.sawir {
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    right:8px;
+    color:#ffffff;
+    font-size:18px;
+    line-height:50px
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url("../../Assets/img/sawir2.jpg") no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.login-box{
+    position:relative;
+    width:390px;
+    height:420px;
+    padding:15px;
+    background-color:transparent;
+    border:2px solid rgb(255, 255, 255, 0.5);
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    backdrop-filter:blur(10px);
+}
+
+.heed {
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+}
+.input-box{
+    position:relative;
+    width:310px;
+    margin:30px 0;
+    border-bottom:2px solid #ffffff;
+
+}
+.text-box{
+    width:100%;
+    height:50px;
+    border:none;
+    outline:none;
+    font-size:16px;
+    color:#ff0000;
+    padding:0 35px 0 5px;
+    background-color:transparent;
+}
+.button{
+    width:100%;
+    height:40px;
+    background:#ffffff;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    cursor:pointer;
+    font-size:16px;
+    color:#000000;
+    transition:all 0.5s;
+    font-weight:600;
+
+}
+.button:hover{
+    background: #C8C5C5;
+}
